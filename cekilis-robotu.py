@@ -237,6 +237,8 @@ class Ui_Form(object):
         self.listWidget.clear()
         kazananlar.clear()
         self.guncelle()
+        self.hediyeOku()
+        self.yedek_sayisi=1
         print("kazananlar: {}".format(kazananlar))
         print(self.listWidget.count())
 
